@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<%= yield %>
+<body>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <%=image_tag("home/home.jpg", alt: "Image")%>
+      </div>
+
+      <div class="item">
+        <%=image_tag("home/home2.png", alt: "Image")%>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+
+  <div class="container-fluid">
+    <h1>We are the first tech club for women of all majors at Berkeley!</h1>
+    <h2>Our goal</h2>
+    <p>The purpose of FEM Tech is to promote gender diversity and inspire
+    women from all majors to excel in technology careers. Through organized seminars,
+    mentorship programs, training workshops, and networking events,
+    FEM Tech will provide a supportive community for all majors to create
+    meaningful connections with like-minded women. We hope to excite new interest in
+    tech and provide support for women already in STEM majors.</p>
+
+    <h2>Join us!</h2>
+    <p> Subscribe for updates on club happenings and amazing opportunities.</p>
+    <%= link_to "Subscribe", 'http://femtechberkeley.us11.list-manage.com/subscribe?u=9faadd40011d00114962c2da5&id=ced7a56ea8',
+     class: "btn btn-lg btn-default" %>
+    <h2></h2>
+    <h2></h2>
+
+  </div>
+</div>
+
+</body>
+
+</html>

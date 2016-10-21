@@ -1,2 +1,101 @@
-<h1>Pages#who_we_are</h1>
-<p>Find me in app/views/pages/who_we_are.html.erb</p>
+<!DOCTYPE html>
+<%= yield %>
+<body>
+  <div class="container-fluid">
+  <h2>Leadership</h2>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      </div>
+      <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      </div>
+      <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      </div>
+      <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      </div>
+  </div><br>
+
+      <div class="row">
+      <div class="col-sm-3">
+          <p>Some text..</p>
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+          </div>
+          <div class="col-sm-3">
+          <p>Some text..</p>
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+          </div>
+          <div class="col-sm-3">
+          <p>Some text..</p>
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+          </div>
+          <div class="col-sm-3">
+          <p>Some text..</p>
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+          </div>
+      </div><br>
+
+  <h2>Supporters</h2>
+  <div class="row">
+    <div class="col-sm-3">
+      <%= link_to image_tag("who_we_are/supporter/citrus.png", alt: "citrus", id: "who_we_are"),
+          "http://citris-uc.org/campus/uc-berkeley/" %>
+    </div>
+    <div class="col-sm-3">
+        <%= link_to image_tag("who_we_are/supporter/humanrights.png", alt: "humanrights", id: "who_we_are"),
+            "https://www.law.berkeley.edu/research/human-rights-center/" %>
+    </div>
+    <div class="col-sm-3">
+      <%= link_to image_tag("who_we_are/supporter/eecs.jpg", alt: "eecs"),
+          "https://eecs.berkeley.edu/" %>
+    </div>
+  </div>
+
+  <h2>Advisory Board</h2>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Alexa Koenig</p>
+      <%= link_to image_tag("https://www.law.berkeley.edu/wp-content/uploads/2015/04/Alexa-Koenig-headshot-1-768x664.jpg", id: "who_we_are"),
+          "https://www.law.berkeley.edu/research/human-rights-center/about-hrc/faculty-staff/alexa-koenig/" %>
+      </div>
+
+      <div class="col-sm-3">
+      <p>Kony Kim</p>
+      <%= link_to image_tag("https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAj-AAAAJGFkZTA4YjQ3LWNhYzAtNGUwMy1hMjdmLWZiMTc1MDM1MGQ0Zg.jpg", id: "who_we_are"),
+      "https://www.linkedin.com/in/konykim" %>
+      </div>
+
+      <div class="col-sm-3">
+      <p>Keith Hiatt</p>
+        <%= link_to image_tag("who_we_are/advisory/keith.jpg", id: "who_we_are"),
+        "https://www.law.berkeley.edu/php-programs/jsp/fileDL.php?fID=4823" %>
+      </div>
+
+      <div class="col-sm-3">
+      <p>Dan Garcia</p>
+      <%= link_to image_tag("https://people.eecs.berkeley.edu/~ddgarcia/gifs/DanGarciaUCBFaculty2004.jpg", id: "who_we_are"),
+      "https://people.eecs.berkeley.edu/~ddgarcia/" %>
+      </div>
+
+      <div class="col-sm-3">
+      <p>Jacqueline Nguyen</p>
+      <%= link_to image_tag("who_we_are/advisory/Jacqueline.jpg", id: "who_we_are"),
+      "https://www.facebook.com/Energant/?pnref=about.work" %>
+      </div>
+
+      <div class="col-sm-3">
+        <p>Brandie Nonnecke</p>
+        <%= link_to image_tag("who_we_are/advisory/Brandie.jpg", id: "who_we_are"),
+        "https://nonnecke.com/" %>
+      </div>
+
+  </div>
+  </div>
+</div>
+</body>

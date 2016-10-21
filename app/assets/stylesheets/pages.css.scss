@@ -1,0 +1,106 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,400');
+/*universal*/
+
+#logo {
+  height: 100px;
+  width: 100px;
+}
+
+#myNavbar {
+  padding: 30px;
+}
+
+a {
+  color: black;
+  font-weight: 200;
+}
+
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+footer {
+  background-color: #F5F5F5;
+}
+
+.container-fluid {
+  padding: 60px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-bottom: 30px;
+}
+
+
+#icon {
+  height: 40px;
+  width: 40px;
+}
+
+
+/*typography*/
+h1, h2, p{
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+}
+
+li {
+  font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+
+}
+
+h2{
+  font-size: 3em;
+
+}
+
+p{
+  font-size: 1.2em;
+  padding-bottom: 0em;
+}
+
+/*home*/
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+.btn {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+      font-family: 'Lato', sans-serif;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+      font-family: 'Lato', sans-serif;
+
+  }
+
+/*who_we_are */
+#who_we_are {
+  width: 150px;
+  height: 150px;
+}
+
+.col-sm-3 {
+  padding: 1.0em;
+}

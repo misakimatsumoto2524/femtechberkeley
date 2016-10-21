@@ -1,14 +1,10 @@
 Rails.application.routes.draw do
-  root'pages#home'
-  get 'pages/home'
-
-  get 'pages/who_we_are'
-
-  get 'pages/events'
-
-  get 'pages/femtech_series'
-
-  get 'pages/blog'
+  root 'pages#home'
+  get 'who_we_are'    => 'pages#who_we_are'
+  get 'events'   => 'pages#events'
+  get 'femtech_series' => 'pages#femtech_series'
+  get 'blog' => 'pages#blog'
+end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -64,4 +60,3 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
