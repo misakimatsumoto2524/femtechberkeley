@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   get 'who_we_are'    => 'pages#who_we_are'
   get 'events'   => 'pages#events'
   get 'femtech_series' => 'pages#femtech_series'
-  get 'blog' => 'pages#blog'
+  get 'blog' => 'pages#blog_path'
 end
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -6,16 +6,16 @@
 #logo {
   height: 100px;
   width: 100px;
+  padding-top: 30px;
 }
 
 #myNavbar {
-  padding: 30px;
+  padding: 40px;
+  padding-bottom: 0px;
+  font-size: 1.5em;
+  color: black;
 }
 
-a {
-  color: black;
-  font-weight: 200;
-}
 
 
 section {
@@ -35,6 +35,7 @@ footer {
   padding-bottom: 0px;
   padding-top: 0px;
   margin-bottom: 30px;
+  align-content: center;
 }
 
 
@@ -45,31 +46,35 @@ footer {
 
 
 /*typography*/
-h1, h2, p{
+h1, h2, a, p{
   font-family: 'Lato', sans-serif;
-  font-weight: 200;
 }
 
-li {
-  font-size: 1.5em;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-}
 
 h1 {
   font-size: 2.5em;
   text-align: center;
+  font-weight: 100;
 
 }
 
 h2{
   font-size: 3em;
+  padding-top: 1.0em;
+  font-weight: 100;
 
 }
+
 
 p{
   font-size: 1.2em;
   padding-bottom: 0em;
+  font-weight: 200;
+}
+
+a {
+  color: black;
+  font-weight: 100;
 }
 
 /*home*/
