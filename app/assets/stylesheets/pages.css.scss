@@ -54,27 +54,27 @@ h1, h2, a, p{
 h1 {
   font-size: 2.5em;
   text-align: center;
-  font-weight: 100;
+  font-weight: 200;
 
 }
 
 h2{
   font-size: 3em;
   padding-top: 1.0em;
-  font-weight: 100;
-
+  font-weight: 200;
+  padding-bottom: 1.0em;
 }
 
 
 p{
   font-size: 1.2em;
   padding-bottom: 0em;
-  font-weight: 200;
+  font-weight: lighter;
 }
 
 a {
   color: black;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 /*home*/
@@ -107,5 +107,5 @@ a {
 }
 
 .col-sm-3 {
-  padding: 1.0em;
+  padding-bottom: 1.5em;
 }
