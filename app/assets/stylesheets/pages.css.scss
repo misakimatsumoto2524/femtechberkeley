@@ -1,7 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,400');
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
 /*universal*/
 
 #logo {
@@ -47,22 +47,21 @@ footer {
 
 
 /*typography*/
-h1, h2{
+h1, h2, li{
   font-family: 'Lato', sans-serif;
+  font-weight: lighter;
 }
 
 
 h1 {
   font-size: 2.5em;
   text-align: center;
-  font-weight: 200;
 
 }
 
 h2{
   font-size: 3em;
   padding-top: 1.0em;
-  font-weight: 200;
   padding-bottom: 1.0em;
 }
 
@@ -70,14 +69,13 @@ h2{
 p{
   font-size: 1.2em;
   padding-bottom: 0em;
-  font-weight: lighter;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 a {
   color: black;
   font-weight: 200;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 /*home*/
