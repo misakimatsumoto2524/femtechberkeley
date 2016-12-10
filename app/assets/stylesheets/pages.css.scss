@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,400');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 /*universal*/
 
 #logo {
@@ -46,7 +47,7 @@ footer {
 
 
 /*typography*/
-h1, h2, a, p{
+h1, h2{
   font-family: 'Lato', sans-serif;
 }
 
@@ -70,11 +71,13 @@ p{
   font-size: 1.2em;
   padding-bottom: 0em;
   font-weight: lighter;
+  font-family: 'Lato', sans-serif;
 }
 
 a {
   color: black;
   font-weight: 200;
+  font-family: 'Lato', sans-serif;
 }
 
 /*home*/
