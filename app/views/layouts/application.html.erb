@@ -9,15 +9,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <nav class="navbar">
   <div class="container-fluid">
-    <div class="navbar-header">
+    <div class="navbar-header" id="logospace">
       <%= link_to image_tag("logo.jpg", alt: "logo", id: "logo"),
           root_path %>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Home", root_path%></li>
         <li><%= link_to "Who We Are", who_we_are_path %></li>
         <li><%= link_to "FEM Tech Series", femtech_series_path %></li>
         <li><%= link_to "Events", events_path %></li>
@@ -25,7 +23,6 @@
       </ul>
     </div>
   </div>
-  </nav>
 </head>
 <body>
 <%= yield %>

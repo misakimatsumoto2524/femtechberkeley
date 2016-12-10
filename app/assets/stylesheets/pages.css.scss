@@ -1,22 +1,29 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,400');
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
 /*universal*/
 
 #logo {
-  height: 100px;
-  width: 100px;
-  padding-top: 30px;
+  height: 80px;
+  width: 80px;
+}
+
+#logospace {
+  padding-left: 30px;
+  padding-top: 15px;
+
 }
 
 #myNavbar {
-  padding: 40px;
   padding-bottom: 0px;
   font-size: 1.5em;
   color: black;
+  padding-top: 25px;
+  padding-right: 100px;
 }
-
 
 
 section {
@@ -31,13 +38,6 @@ footer {
   background-color: #F5F5F5;
 }
 
-.container-fluid {
-  padding: 60px;
-  padding-bottom: 0px;
-  padding-top: 0px;
-  margin-bottom: 30px;
-  align-content: center;
-}
 
 
 #icon {
@@ -47,9 +47,10 @@ footer {
 
 
 /*typography*/
-h1, h2, li{
+h1, h2{
   font-family: 'Lato', sans-serif;
-  font-weight: lighter;
+  font-weight: 200;
+
 }
 
 
@@ -69,14 +70,21 @@ h2{
 p{
   font-size: 1.2em;
   padding-bottom: 0em;
-  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+
 }
 
+
 a {
-  color: black;
-  font-weight: 200;
-  font-family: 'Nunito Sans', sans-serif;
+    color: black;
+    font-weight: 200;
+    font-size: 1.1em;
+    font-family: 'Lato', sans-serif;
 }
+
+
+
 
 /*home*/
 .carousel-inner img {
